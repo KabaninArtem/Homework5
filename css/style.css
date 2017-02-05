@@ -1,0 +1,214 @@
+@font-face {
+    font-family: 'Helvetica Regular';
+    src: url('../fonts/helvetica/HelveticaRegular.eot') format('eot'),
+    		 url('../fonts/helvetica/HelveticaRegular.ttf') format('#truetype'),
+         url('../fonts/helvetica/HelveticaRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+	font-family: 'Helvetica Regular';
+}
+h1 {
+	padding-top: 20px;
+	text-align: center;
+	color: white;
+	font-size: 24px;
+	border-bottom: 2px solid white;
+  padding-bottom: 25px;
+}
+.wrapper {
+	margin: auto;
+}
+.header {
+	height: 50px;
+	background-color: #08599c;
+}
+.contact-block {
+	float: right;
+	color: white;
+	margin-right: 15px;
+}
+.contact-block img {
+	margin-bottom: -4px;
+}
+.contact-block li {
+	padding: 18px 19px 16px 19px;
+	display: inline-block;
+}
+.contact-block a {
+	text-decoration: none;
+	color: white;
+}
+.contact-block li:hover {
+	padding: 16px 17px 14px 17px;
+	background: linear-gradient(to top, #2e7ac4, #51b1dc);
+	border-collapse: collapse;
+	border-top: none;
+	border: 2px solid #449ad3;
+}
+.contact-block a:hover {
+	text-decoration: underline;
+}
+.menu	{
+		width: 490px;
+		height:50px;
+	  float: right;
+	  margin-right: 25px;
+		border-right: 1px solid #56a2dc
+}
+.menu li {
+	padding-top: 19px;
+	display: inline-block;
+}
+.menu a {
+	padding: 19px 15px 15px;
+	text-decoration: none;
+	color: #60b5ed;
+}
+.menu a:hover {
+	color: white;
+	background-color: #4eabda;
+}
+.main {
+	height: 1000px;
+	position: relative;
+	background: url("../img/background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.center-block {
+	width: 560px;
+	height: 610px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -280px;
+	margin-top: -305px;
+
+	background: rgba(0, 0, 0, 0.5);
+}
+.facebook {
+	width: 276px;
+	height: 35px;
+	border-radius: 8px 0 0 8px;
+
+}
+.center-block a {
+	display: block;
+	margin: auto;
+	margin-top: 25px;
+	width: 280px;
+	height: 40px;
+	background-color: #375090;
+	text-decoration: none;
+	border-radius: 2px;
+}
+.text-block {
+	width: 228px;
+	height: 27px;
+	padding-top: 12px;
+	text-align: center;
+	float: right;
+	color: white;
+	font-weight: bold;
+	border-top: 1px solid #798ab6;
+	border-left: 1px solid #798ab6;
+	border-radius: 0 2px 0 0;
+	letter-spacing: 1px;
+}
+.logo {
+	float:right;
+	width: 50px;
+	height: 31px;
+	padding-top: 8px;
+	font-size: 25px;
+	font-family: Helvetica;
+	font-weight: bold;
+	color: white;
+	border-top: 1px solid #798ab6;
+	border-right: 1px solid #223c77 ;
+	border-radius: 2px 0 0 2px;
+	text-align: center;
+}
+.text-block span:first-child {
+	font-weight: normal;
+}
+.text-block span:last-child {
+	float:right;
+	padding-right: 10px;
+}
+.line-block {
+	width: 280px;
+	margin: auto;
+	margin-top: 25px;
+}
+.vertical-line {
+	display: inline-block;
+	width: 122px;
+	border-top: 2px solid #666666;
+	border-bottom: 2px solid #000000;
+}
+.line-block span {
+	display: inline-block;
+	width: 25px;
+	margin: auto;
+	vertical-align: -4px;
+	color: #999999;
+}
+input[type="text"], input[type="password"] {
+	display: block;
+	width: 265px;
+	height: 30px;
+	margin: auto;
+	margin-top: 25px;
+	padding-left: 15px;
+	background-color: #0f0f0f;
+	color: #cccccc;
+	border: none;
+	border-bottom: 2px solid #484948;
+	outline: none;
+}
+input[type="text"]:focus, input[type="password"]:focus {
+  background-color: #1b5288;
+  color: #fffbfb;
+  border-bottom: 1px solid rgba(67,126,169,0.65);
+	box-shadow: 0px 0px 14px 4px rgba(59,107,139,0.88);
+}
+input[type="text"]:focus::-webkit-input-placeholder {
+	color: #fffbfb;
+}
+input[type="password"]:focus::-webkit-input-placeholder {
+	color: #fffbfb;
+}
+.check-block {
+	display: block;
+	width: 280px;
+	margin: auto;
+	margin-top: 15px;
+	color: #cccccc;
+	font-size: 14px;
+}
+.check-block label {
+	vertical-align: 1px;
+	}
+input[type="submit"] {
+	display: block;
+	width: 150px;
+	height: 35px;
+	margin: auto;
+	margin-top: 10px;
+	cursor: pointer;
+	color: #ffffff;
+	background: linear-gradient(to top, #2e7ac4, #50aedb);
+	border-radius: 5px;
+	border: 1px solid #55a1dc;
+}
+.privacy-policy-block {
+	width: 307px;
+	margin: auto;
+	margin-top: 10px;
+	color: #cccccc;
+	font-size: 11px;
+	text-align: center;
+}
